@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dvc-example"
+version = "0.1.0"
+description = ""
+authors = ["ildar <ahmetgalin989@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dvc = "^3.48.4"
+scikit-learn = "^1.4.1.post1"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
